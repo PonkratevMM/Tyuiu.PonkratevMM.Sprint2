@@ -9,31 +9,31 @@ namespace Tyuiu.PonkratevMM.Sprint2.Task5.V5.Lib
             switch (value)
             {
                 case 6:
-                    result = "Шестерка";
+                    result = "щестерка";
                     break;
                 case 7:
-                    result = "Семерка";
+                    result = "семерка";
                     break;
                 case 8:
-                    result = "Восьмерка";
+                    result = "восьмерка";
                     break;
                 case 9:
-                    result = "Девятка";
+                    result = "девятка";
                     break;
                 case 10:
-                    result = "Десятка";
+                    result = "десятка";
                     break;
                 case 11:
-                    result = "Валет";
+                    result = "валет";
                     break;
                 case 12:
-                    result = "Дама";
+                    result = "дама";
                     break;
                 case 13:
-                    result = "Король";
+                    result = "король";
                     break;
                 case 14:
-                    result = "Туз";
+                    result = "туз";
                     break;
                 default:
                     result = "Неверный номер карты";
