@@ -1,0 +1,48 @@
+﻿using Tyuiu.PonkratevMM.Sprint2.Task4.V7.Lib;
+namespace Tyuiu.PonkratevMM.Sprint2.Task4.V7;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        DataService ds = new DataService();
+
+
+
+
+        Console.Title = "Спринт #2 | Выполнил Понкратьев М.М | ИИПб-26";
+        Console.WriteLine("*****************************************************");
+        Console.WriteLine("* Спринт #2                                         *");
+        Console.WriteLine("* Тема: Базовые навыки работы в C#                  *");
+        Console.WriteLine("* Задание #4                                        *");
+        Console.WriteLine("* Вариант #7                                        *");
+        Console.WriteLine("* Выполнил Понкратьев Матвей Максимович | ИИПб-26   *");
+        Console.WriteLine("*****************************************************");
+        Console.WriteLine("* УСЛОВИЕ:                                          *");
+        Console.WriteLine("* Написать программу, которая вычисляет требуемое   *");
+        Console.WriteLine("* значение с использованием тернарного оператора,   *");
+        Console.WriteLine("* где пользователь вводит значение переменных x,y с *");
+        Console.WriteLine("* клавиатуры.                                       *");
+        Console.WriteLine("*****************************************************");
+        Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                  *");
+        Console.WriteLine("*****************************************************");
+
+        Console.WriteLine("Введите значение переменной X: ");
+        double x = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Введите значение переменной Y: ");
+        double y = Convert.ToDouble(Console.ReadLine());
+        double res = ds.Calculate(x, y);
+
+
+
+        Console.WriteLine("*****************************************************");
+        Console.WriteLine("* РЕЗУЛЬТАТ:                                        *");
+        Console.WriteLine("*****************************************************");
+        Console.WriteLine("Значение функции = " + res);
+
+
+        Console.ReadKey();
+
+    }
+
+}
